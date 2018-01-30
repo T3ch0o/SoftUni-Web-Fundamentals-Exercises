@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*-------------------------------------------*/
+
+body {
+    font-family: Roboto, sans-serif;
+    background: #e2d7aa;
+    color: #000000;
+    font-size: 16px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #000000;
+    font-size: 28px
+}
+
+nav ul li a.home {
+    color: #0a2d4a;
+    font-weight: Bold;
+}
+
+nav ul li:last-of-type a {
+    color: #0a2d4a;
+    font-weight: Bold;
+}
+
+img {
+    width: 1100px;
+    height: 450px;
+}
+
+.img-container {
+    width: 1600px;
+    height: 450px;
+    margin-top: 65px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 65px;
+    font-family: ‘Indie Flower’, cursive;
+}
+
+main {
+    margin-top: 30px;
+}
+
+article {
+    display: inline-block;
+    width: 29%;
+    height: 20%;
+    text-align: left;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+
+article img {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+article p:first-of-type::first-letter {
+    font-family: EucrosiaUPC, sans-serif;
+    font-size: 40px;
+}
+
+article p a {
+    background: url(images/bg2.jpg);
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+article p:last-of-type span:first-of-type a::before {
+    content: url("images/comment.png");
+    position: relative;
+    right: 5px;
+    top: 7px;
+    padding: 10px;
+}
+
+span.readmore a, span.comments a {
+    text-transform: uppercase;
+}
+
+footer {
+    margin: 20px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
