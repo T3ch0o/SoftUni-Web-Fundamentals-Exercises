@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:"Lato", sans-serif;
+    font-size: 16px;
+    background-color: #333333;
+    margin: 0 auto;
+    color: white;
+}
+
+main {
+    background: url("images/food-image-bg.png");
+    background-size: cover;
+    width: 50%;
+    height: 40%;
+    padding-bottom: 650px;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    padding-right: 130px;
+    padding-top: 70px;
+}
+
+.recipies-info {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.recipies-info p {
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.recipies-info p span {
+    color: #b5c640;
+}
+
+.btn-primary {
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    background: none;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #b5c640;
+}
+
+.prep-steps {
+    width: 700px;
+    float: right;
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+.step {
+    padding-top: 30px;
+}

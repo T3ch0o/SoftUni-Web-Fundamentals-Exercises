@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:"Lato", sans-serif;
+    font-size: 16px;
+    background-color: #24437c;
+    color: #FFFFFF;
+}
+
+nav {
+    padding-bottom: 200px;
+}
+
+img, .nav-primary {
+    display: inline-block;
+}
+
+.nav-primary {
+    float: right;
+    list-style-type: none;
+    padding: 30px 30px 0 0;
+}
+
+.nav-primary li {
+    display: inline-block;
+}
+
+.nav-item a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-item a:hover {
+    background-color: #3dc1ef;
+    border-radius: 10px;
+}
+
+img {
+    padding: 30px 0 0 60px;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+.header-subtitle {
+    color: #456186;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+#button-container {
+    text-align: center;
+}
+
+.header-btn.cta-btn {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.header-btn.cta-btn:hover {
+    background-color: #3dc1ef;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header-services {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.service {
+    display: inline-block;
+    text-align: justify;
+    padding: 50px;
+}
+
+.service:hover {
+    background-color: #3dc1ef;
+    cursor: pointer;
+}
+
+.service-title {
+    width: 150px;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.service-intro {
+    padding-top: 40px;
+    width: 300px;
+}
+
+.service-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    padding-top: 40px;
+}
