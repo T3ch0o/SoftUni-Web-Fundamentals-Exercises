@@ -1,0 +1,42 @@
+@import url("https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn");
+
+body {
+    font-family: "Vollkorn", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 28px;
+    text-align: left;
+}
+
+.container img {
+    float:left;
+    width: 280px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #becbcc;
+}
+
+.container article {
+    margin-left: 25px;
+    horiz-align: right;
+    margin-bottom: 40px;
+}
+
+.container h3, .container a {
+    color: #72aeb4;
+}
+
+.container article time {
+    font-style: italic;
+    font-size: 14px;
+}
+
+h3 {
+    margin-bottom: 2px;
+}

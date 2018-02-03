@@ -1,0 +1,39 @@
+body {
+    font-family: Calibri Light, Verdana, sans-serif;
+}
+
+div {
+    width: 890px;
+    margin: 0 auto;
+    border: 1px solid #a5b2b3;
+    color: #000000;
+}
+
+div > article {
+    display: inline-block;
+    width: 200px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+article h2 {
+    text-align: center;
+}
+
+article p {
+    margin-top: 10px;
+}
+
+article img {
+    width: 200px;
+    height: 120px;
+}
+
+article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article a:hover {
+    opacity: 0.5;
+}
