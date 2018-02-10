@@ -1,0 +1,30 @@
+main {
+    margin: 0 auto;
+}
+
+.left {
+    background-color: #7CB3E9;
+    float: left;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.right {
+    background-color: #7CB3E9;
+    float: right;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.center {
+    margin: 0 30%;
+    background-color: #7CB3E9;
+    padding: 20px 30px;
+    width: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}

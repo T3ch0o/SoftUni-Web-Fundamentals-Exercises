@@ -1,0 +1,55 @@
+body {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: rgb(41, 41, 41);
+}
+
+footer article {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+footer h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    color: #959595;
+    padding: 0;
+}
+
+article div a {
+    background: url("images/social.jpg");
+    display: inline-block;
+    width: 72px;
+    height: 60px;
+}
+
+.linkedin {
+    background-position-x: -192px;
+    background-position-y: 622px;
+}
+
+.youtube {
+    background-position-x: -513px;
+    background-position-y: 622px;
+}
+
+.twitter {
+    background-position-x: -66px;
+    background-position-y: 622px;
+}
+
+.facebook:hover {
+    background-position-x: 0;
+    background-position-y: 60px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
