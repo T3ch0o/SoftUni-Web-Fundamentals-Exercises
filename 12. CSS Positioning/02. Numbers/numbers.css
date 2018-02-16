@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#wrapper h1 {
+    color: #9470dc;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#wrapper header {
+    background-color: rgb(221, 221, 221);
+    padding: 1px;
+    border-radius: 10px;
+}
+
+#wrapper article {
+    display: inline-block;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 10px 15px 10px;
+    margin: 20px 5px 0;
+    width: 150px;
+}
+
+#wrapper .circle {
+    padding: 50px 50px;
+    background-color: #9470dc;
+    border-radius: 50%;
+    color: white;
+}
+
+#wrapper p {
+    color: rgb(221, 221, 221);
+}
+
+#wrapper button {
+    background-color: rgb(221, 221, 221);
+    border: 1px solid rgb(221, 221, 221);
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+#wrapper button:hover {
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+#wrapper .circle:hover {
+    background-color: white;
+    color: #9470dc;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+@import "fonts/Vollkorn-Regular.ttf";
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: #6e7c8e;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+
+#container ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0 45px;
+}
+
+#container article {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    height: 600px;
+    border: 1px solid #f2f2f2;
+    position: relative;
+}
+
+.main-header, .article-header, .price {
+    font-family: 'Vollkorn', serif;
+}
+
+.main-header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+.article-header {
+    text-transform: capitalize;
+    padding: 15px 30px;
+    background-color: #ebeff2;
+}
+
+.price {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#container ul li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-right: 5px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20px;
+    left: 3%;
+    background-color: rgb(221,221,221);
+    padding: 20px 97px;
+    border: 1px solid rgb(221,221,221);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+article:hover .article-header {
+    background-color: #65d3e2;
+    color: white;
+}
+
+article:hover .btn {
+    background-color: #65d3e2;
+    border: 1px solid #65d3e2;
+}
