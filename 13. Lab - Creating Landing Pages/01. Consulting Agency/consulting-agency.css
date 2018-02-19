@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    background: url("images/Layer-759_02.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 10px 300px 540px;
+}
+
+#nav-bar {
+    background-color: rgb(186, 146, 94);
+    text-align: center;
+    padding: 15px;
+    opacity: 0.9;
+}
+
+#nav-bar ul {
+    list-style: none;
+}
+
+#nav-bar li {
+    display: inline-block;
+    margin: 0 60px
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 200px 0 60px;
+}
+
+header h3 {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.servicesBtn {
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.servicesBtn span{
+    color: rgb(186, 146, 94);
+    font-weight: bold;
+}
+
+.servicesBtn:hover {
+    background-color: rgb(186, 146, 94);
+    color: black;
+    cursor: pointer;
+}
+
+.servicesBtn:hover span {
+    color: black;
+}
+
+main {
+    color: black;
+}
+
+#services {
+    text-align: center;
+}
+
+#services h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.first-section i, .second-section i {
+    background-color: black;
+    color: white;
+    padding: 8px 9px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+
+.title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.content {
+    color: #6e6e6e;
+    text-align: left;
+    margin-left: 52px;
+}
+
+.first-section article {
+    display: inline-block;
+    width: 450px;
+}
+
+.second-section article {
+    display: inline-block;
+    width: 450px;
+    margin: 30px 0;
+}
+
+#banner {
+    background-image: url("images/steel-bg.jpg");
+    background-size: cover;
+    opacity: 0.8;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#banner p:first-child{
+    font-size: 1.3rem;
+    color: rgb(186, 146, 94);
+    font-weight: bold;
+}
+
+#banner p:last-child{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.why-us {
+    text-align: center;
+    background-image: url("images/background-choose-us.jpg");
+    background-size: cover;
+}
+
+.dark {
+    background-color: black;
+    opacity: 0.7;
+}
+
+.why-us h3{
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 60px;
+    margin-bottom: 30px;
+
+}
+
+.benefits article{
+    display: inline-block;
+    border: 1px solid rgb(186, 146, 94);
+    padding: 40px 20px;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.benefits article h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.benefits article p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.benefits h4, .benefits p {
+    color: white;
+}
+
+.benefits {
+    padding-bottom: 50px;
+}
+
+.benefits article:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.benefits article:hover p {
+    color: black;
+}
+
+.benefits article:hover h4 {
+    color: black;
+}
+
+.biography {
+    background-image: url("images/consulting-woman.jpg");
+    height: 700px;
+    background-size: cover;
+    position: relative;
+}
+
+.white-block {
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    padding: 80px 50px;
+    width: 550px;
+    right: 60px;
+    height: 450px;
+}
+
+.white-block > p::before{
+    content: '"';
+    font-size: 25px;
+    color: rgb(186, 146, 94);
+}
+
+.white-block > p::after{
+    content: '"';
+    font-size: 25px;
+    color: rgb(186, 146, 94);
+}
+
+.blue-block {
+    background-color: rgb(8, 8, 32);
+    color: white;
+    position: absolute;
+    padding: 10px 20px;
+    width: 500px;
+    right: 118px;
+    bottom: 130px;
+    height: 270px;
+}
+
+.blue-block p {
+    text-align: right;
+    font-size: 11px;
+    color: #8b8b8b;
+    font-weight: bold;
+}
+
+.blue-block h4 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.sponsors {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.sponsors img {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+}
+
+footer {
+    background-color: rgb(8, 8, 32);
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.contact p{
+    width: 220px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+.contact, .links, .instagram-widget {
+    height: 350px;
+    margin: 10px 250px;
+    text-align: left;
+}
+
+.social-medias {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.social-medias i {
+    color: black;
+    background-color: white;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    padding: 10px;
+    margin-left: 20px;
+    opacity: 0.8;
+}
+
+
+footer > section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 148px;
+    width: 200px;
+    padding-left: 30px;
+}
+
+.links ul li {
+    display: block;
+    padding: 5px;
+}
+
+.links ul li a {
+    color: #c79d63;
+    text-decoration: none;
+}
+
+.instagram-widget ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    list-style: none;
+}
+
+.instagram-widget img {
+    width: 100px;
+    height: 100px;
+}
+
