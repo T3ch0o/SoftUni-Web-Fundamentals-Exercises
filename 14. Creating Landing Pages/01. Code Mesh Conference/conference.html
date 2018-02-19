@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Conference Landing Page</title>
     <link rel="stylesheet" href="conference.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<div id="wrapper">
     <header>
-        <nav class="nav-bar">
+        <p>code mesh</p>
+        <nav>
             <ul>
                 <li><a href="#">speakers</a></li>
                 <li><a href="#">schedule</a></li>
@@ -16,48 +17,40 @@
                 <li><a href="#">login</a></li>
             </ul>
         </nav>
-        <p id="bellow-nav-bar">code mesh</p>
-        <h1>The urge for <span>coding innovations</span> is the same as the urge to go on living</h1>
-        <i class="fa fa-play-circle" id="play" aria-hidden="true"></i>
-        <section>
-            <article>
-                <i class="fa fa-code" aria-hidden="true"></i>
-                <p>
-                    CodeMesh returns to Sofia 11th – 12th May, 2017. We promise
-                    you the very best developer content and awesome experiences.
-                </p>
-            </article>
-            <article>
-                <i class="fa fa-area-chart" aria-hidden="true"></i>
-                <p>
-                    This year, CodeMesh is welcoming top speakers not only from
-                    the country, but Europe and even USA!
-                </p>
-            </article>
-            <article>
-                <i class="fa fa-diamond" aria-hidden="true"></i>
-                <p>
-                    We're also going to have a much bigger and cooler
-                    networking event after the conference!
-                </p>
-            </article>
-            <article>
-                <i class="fa fa-cube" aria-hidden="true"></i>
-                <p>
-                    Join us and immerse yourself in all the different
-                    tracks and topics available to out attendees!
-                </p>
-            </article>
-        </section>
+        <div>
+            <h1>The urge for <span>coding innovations</span> is the same
+                as the urge to go on living</h1>
+            <i class="fa fa-play-circle fa-4x" aria-hidden=“true"></i>
+        </div>
+        <article>
+            <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+            <p>CodeMesh returns to Sofia 11th – 12th May, 2017. We promise
+                you the very best developer content and awesome experiences.</p>
+        </article>
+        <article>
+            <i class="fa fa-area-chart fa-2x" aria-hidden=“true"></i>
+            <p>This year, CodeMesh is welcoming top speakers not only from
+                the country, but Europe and even USA!</p>
+        </article>
+        <article>
+            <i class="fa fa-diamond fa-2x" aria-hidden=“true"></i>
+            <p>We're also going to have a much bigger and cooler
+                networking event after the conference!</p>
+        </article>
+        <article>
+            <i class="fa fa-cube fa-2x" aria-hidden="true"></i>
+            <p>Join us and immerse yourself in all the different
+                tracks and topics available to out attendees!</p>
+        </article>
     </header>
     <main>
-        <section class="info">
-            <div class="quote">
+        <section id="words">
+            <div id="quote">
                 <h2>"I think it's really important to think outside
                     of the box when you're coding"</h2>
                 <p>words by marc newson</p>
             </div>
-            <div class="description">
+            <div id="description">
                 <p>When you’re busy leading a team, coding and maintaining
                     standards, how do you find the time to stay ahead of
                     new technologies and develop yourself as a technical lead?
@@ -71,79 +64,76 @@
                     solid content, and will strive to deliver some fun surprises along the way.</p>
                 <h3>You can code and create, and build the most wonderful place in the world.</h3>
             </div>
-            <div class="orange">
-
-            </div>
             <img src="img/intro-img.png">
         </section>
-        <section class="schedule">
-            <h3>Schedule: Grab some coffee & donuts and take a seat</h3>
+        <section id="schedule">
+            <h2>Schedule: Grab some coffee & donuts and take a seat</h2>
             <ul>
-                <li><i class="fa fa-address-book" aria-hidden="true"></i> <time>09:00 - 10:00 am</time> registration</li>
-                <li><i class="fa fa-microphone" aria-hidden="true"></i> <time>11:00 - 12:00 am</time> the future of creative computing</li>
-                <li><i class="fa fa-cutlery" aria-hidden="true"></i> <time>12:00 - 13:00 pm</time> lunch break</li>
-                <li><i class="fa fa-microphone" aria-hidden="true"></i> <time>13:00 - 14:00 pm</time> linux for developers</li>
-                <li><i class="fa fa-microphone" aria-hidden="true"></i> <time>14:00 - 15:00 pm</time> the wonderful world of IOT</li>
-                <li><i class="fa fa-microphone" aria-hidden="true"></i> <time>15:00 - 16:00 pm</time> do we need to read coding books?</li>
+                <li><i class="fa fa-address-book-o orange-icon" aria-hidden=“true"></i> <strong>09:00 - 10:00 AM</strong> registration</li>
+                <li><i class="fa fa-microphone orange-icon" aria-hidden=“true"></i> <strong>11:00 - 12:00 AM</strong> the future of creative computing</li>
+                <li><i class="fa fa-cutlery orange-icon" aria-hidden=“true"></i> <strong>12:00 - 13:00 PM</strong> lunch break</li>
+                <li><i class="fa fa-microphone orange-icon" aria-hidden=“true"></i> <strong>13:00 - 14:00 AM</strong> linux for developers</li>
+                <li><i class="fa fa-microphone orange-icon" aria-hidden=“true"></i> <strong>14:00 - 15:00 AM</strong> the wonderful world of IOT</li>
+                <li><i class="fa fa-microphone orange-icon" aria-hidden=“true"></i> <strong>15:00 - 16:00 AM</strong> do we need to read coding books?</li>
             </ul>
         </section>
-        <section class="speakers">
-            <div class="speakers-header">
-                <h3>Speakers: get to know all the awesome people that will be speaking
-                    at CodeMesh!</h3>
-                <p>Our speakers are not only top quality professionals, but they are also
-                    really awesome facilitators!</p>
+        <section id="speakers">
+            <div>
+                <h2>Speakers: get to know all the awesome people that will be speaking
+                    at CodeMesh!</h2>
+                <h5>Our speakers are not only top quality professionals, but they are also
+                    really awesome facilitators!</h5>
             </div>
-            <section class="first-row">
-                <article>
-                    <img src="img/speaker-1.png"/>
-                    <h4>sean beamon <i class="fa fa-github" aria-hidden="true"></i></h4>
-                    <p>front-end developer</p>
-                </article>
-                <article>
-                    <img src="img/speaker-2.png"/>
-                    <h4>rodolfo faison <i class="fa fa-github" aria-hidden="true"></i></h4>
-                    <p>linux developer</p>
-                </article>
-                <article>
-                    <img src="img/speaker-3.png"/>
-                    <h4>nydia gaunt <i class="fa fa-github" aria-hidden="true"></i></h4>
-                    <p>qa</p>
-                </article>
-                <article>
-                    <img src="img/speaker-4.png"/>
-                    <h4>kum wathen <i class="fa fa-github" aria-hidden="true"></i></h4>
-                    <p>ruby on rails</p>
-                </article>
-            </section>
-            <section class="second-row">
-                <article>
-                    <img src="img/speaker-5.png"/>
-                    <h4>morton hirt <i class="fa fa-github" aria-hidden="true"></i></h4>
-                    <p>ASP.NET</p>
-                </article>
-                <article>
-                    <img src="img/speaker-6.png"/>
-                    <h4>john simsons <i class="fa fa-github" aria-hidden="true"></i></h4>
-                    <p>cloud services</p>
-                </article>
-            </section>
+            <ul>
+                <li>
+                    <img src="img/speaker-1.png">
+                    <p>sean beamon <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+                    <h6>front-end developer</h6>
+                </li>
+                <li>
+                    <img src="img/speaker-2.png">
+                    <p>rodolfo faison <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+                    <h6>linux developer</h6>
+                </li>
+                <li>
+                    <img src="img/speaker-3.png">
+                    <p>nydia gaunt <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+                    <h6>qa</h6>
+                </li>
+                <li>
+                    <img src="img/speaker-4.png">
+                    <p>kum wathen <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+                    <h6>ruby on rails</h6>
+                </li>
+                <li>
+                    <img src="img/speaker-5.png">
+                    <p>morton hirt <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+                    <h6>ASP.NET</h6>
+                </li>
+                <li>
+                    <img src="img/speaker-6.png">
+                    <p>john simsons <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+                    <h6>cloud services</h6>
+                </li>
+            </ul>
         </section>
-        <section class="special-events">
-            <div class="container">
-                <h1>special events</h1>
+        <section id="events">
+            <form>
+                <h2>special events</h2>
                 <p>Apart from the CodeMesh conference, we organize biweekly coding
                     meetings and a lot of socials! If you are interested, please leave
-                    your email down below to be subscribed to out mailing list!
-                </p>
-                <input type="text" placeholder="Enter your email">
-                <button>subscribe</button>
-            </div>
+                    your email down below to be subscribed to out mailing list!</p>
+                <div>
+                    <input type="text" placeholder="Enter your email">
+                    <button>subscribe</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
-        <p>codemesh 2017</p>
+        <span>codemesh 2017</span>
         <p>&copy; code mesh 2017. all rights reserved</p>
     </footer>
+</div>
 </body>
 </html>
