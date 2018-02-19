@@ -26,8 +26,7 @@ main {
     height: 40%;
     padding-bottom: 650px;
     border-radius: 15px;
-    margin-left: 25%;
-    margin-top: 10%;
+    margin: 160px auto;
 }
 
 h1 {
