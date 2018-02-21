@@ -1,0 +1,20 @@
+form {
+    width: 300px;
+    color: #2D2D2D;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    height: 100px;
+}
+
+select, input, textarea {
+    width: 180px;
+}
+
+select {
+    width: 185px;
+}

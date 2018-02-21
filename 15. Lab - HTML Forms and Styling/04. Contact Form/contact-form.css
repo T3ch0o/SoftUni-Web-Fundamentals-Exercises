@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #888;
+}
+
+.container {
+    margin: 200px auto;
+    background-color: #F7F7F7;
+    padding: 40px 20px;
+    border: 1px solid #c4c4c4;
+    max-width: 600px;
+}
+
+h1 {
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+
+p {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c4c4c4;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+label {
+    margin-right: 10px;
+    display: block;
+}
+
+
+form {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+label > span {
+    float: left;
+    width: 86px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+
+input[type="text"], #email, textarea, select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 323px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+select {
+    width: 332px;
+    height: 35px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.button {
+    background-color: #E27575;
+    border: 1px solid #E27575;
+    color: #ffffff;
+    padding: 10px 90px;
+    border-radius: 5px;
+    margin-left: 95px;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    text-shadow: 1px 1px 1px #9E3F3F;
+}
