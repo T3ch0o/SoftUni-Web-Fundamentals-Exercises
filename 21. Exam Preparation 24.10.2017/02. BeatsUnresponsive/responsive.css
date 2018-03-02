@@ -1,0 +1,35 @@
+@media all and (max-width: 640px ) {
+    .nav-primary {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-primary a {
+        margin: 0;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .solo {
+        text-align: center;
+    }
+
+    .second-row {
+        flex-direction: column;
+    }
+
+    .mixr-left, .urbeats-right {
+        width: auto;
+        align-items: center;
+    }
+
+    .studio {
+        text-align: center;
+    }
+
+    .grid-gallery img{
+        width: 49%;
+    }
+}

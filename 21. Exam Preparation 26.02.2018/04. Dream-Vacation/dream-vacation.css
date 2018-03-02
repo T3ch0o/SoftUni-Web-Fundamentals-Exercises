@@ -1,0 +1,161 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900 ";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ";
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url('images/background.jpg') no-repeat left top;
+    background-size: cover;
+    height: 900px;
+    padding: 15px 250px;
+    color: #FFFFFF;
+}
+
+.header-nav-items, header img {
+    display: inline-block;
+}
+
+.header-nav-items {
+    float: right;
+}
+
+.header-nav-items ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-nav-items li {
+    margin: 0 15px;
+}
+
+.header-nav-items a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin: 280px 0 10px 0;
+}
+
+header p {
+    text-align: center;
+}
+
+.offers {
+    background-color: #e5e5e5;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.offers h2 {
+    font-size: 1.8rem;
+}
+
+.subtitle {
+    margin: 10px 0 40px;
+    color: #8b8b8b;
+}
+
+.first-offers {
+    display: flex;
+    justify-content: center;
+}
+
+.first-offers article, .second-offers article {
+    margin: 0 10px 25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.first-offers img, .second-offers img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.name, .price {
+    color: black;
+    display: inline-block;
+}
+
+.name {
+    float: left;
+    margin: 15px 30px;
+    font-weight: bold;
+}
+
+.price {
+    float: right;
+    margin: 15px 30px;
+    font-size: 17px;
+}
+
+.second-offers {
+    display: flex;
+    justify-content: center;
+}
+
+.customers-says {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.customers-says h2 {
+    font-size: 1.8rem;
+}
+
+.customers {
+    display: flex;
+    justify-content: center;
+}
+
+.customers img {
+    border-radius: 50%;
+}
+
+.customer-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 30px 0 20px;
+    font-size: 15px;
+}
+
+.comment {
+    width: 400px;
+    color: #8b8b8b;
+}
+
+.customers article {
+    margin: 0 20px;
+}
+
+footer {
+    padding: 100px 650px 30px;
+    color: #8b8b8b;
+}
+
+footer p {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+footer li {
+    margin-left: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}

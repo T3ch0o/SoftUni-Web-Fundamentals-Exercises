@@ -1,0 +1,245 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900 ";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+.nav-items {
+    padding: 30px;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items li {
+    flex-direction: column;
+    margin: 0 80px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #acacac;
+}
+
+.nav-items a:hover {
+    border-bottom: 1px solid #acacac;
+    color: black;
+}
+
+.solo-wireless {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.left, .right{
+    display: inline-block;
+}
+
+.right img{
+    width: 500px;
+    margin-left: 100px;
+}
+
+.left {
+    vertical-align: top;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.left h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.left p {
+    width: 360px;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.left button {
+    margin-top: 30px;
+    background-color: red;
+    border: none;
+    padding: 10px 45px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.left-side, .right-side{
+    display: inline-block;
+}
+
+.right-side {
+    vertical-align: top;
+}
+
+.power-beats {
+    text-align: center;
+}
+
+.left-side img {
+    width: 500px;
+}
+
+.right-side p {
+    width: 313px;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.right-side h1 {
+    font-size: 3.1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.right-side h4 {
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: normal;
+}
+
+.right-side h4 span {
+    font-weight: bold;
+}
+
+.power-beats {
+    margin-top: 150px;
+}
+
+.left-side img {
+    margin-right: 100px;
+}
+
+.right-side {
+    margin-right: 150px;
+}
+
+.price, .right-side button {
+    display: inline-block;
+}
+
+.right-side button {
+    margin-top: 30px;
+    background-color: red;
+    border: none;
+    padding: 10px 45px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.right-side .price {
+    width: 160px;
+}
+
+.promotion {
+    background-color: rgb(87, 87, 87);
+    text-align: center;
+    padding: 80px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.promotion img {
+    position: absolute;
+    top: 44px;
+    left: 750px
+}
+
+.promotion a {
+    font-size: 2.1rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: inherit;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.promotion h3 {
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 90px;
+}
+
+.promotion h3 span {
+    font-weight: bold;
+}
+
+.advertising {
+    padding: 0;
+    background-color: rgb(218, 218, 218);
+}
+
+.left-image, .right-content {
+    display: inline-block;
+    width: 49%;
+}
+
+
+.left-image img{
+    width: 100%;
+    height: 1100px;
+    float: left;
+}
+
+.right-content {
+    vertical-align: top;
+}
+
+.right-content div {
+}
+
+.inside {
+    float: left;
+    margin: 60px;
+}
+
+.right-content p.header {
+    font-size: 15rem;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 700px;
+}
+
+.inside p {
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.inside span {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right-content img {
+    margin-top: 60px;
+    height: 950px;
+    width: 350px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #949494;
+}
